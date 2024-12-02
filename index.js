@@ -89,6 +89,34 @@ searchButton.addEventListener('click', () => {
 
 
 
+const items2 = document.querySelectorAll('.cdtxt03');
+console.log(items2); // Just to verify selection
+
+items2.forEach(item2 => {
+    item2.addEventListener('mouseover', () => {
+        console.log("hi");
+        item2.style.textDecoration = 'none'; // Underline on hover
+    });
+
+    item2.addEventListener('mouseout', () => {
+        item2.style.textDecoration = 'underline'; // Remove underline on mouseout
+    });
+});
+
+const items3 = document.querySelector('.cdtxt03');
+console.log(items3); // Just to verify selection
+
+// items2.forEach(item2 => {
+//     item2.addEventListener('mouseover', () => {
+//         console.log("hi");
+//         item2.style.textDecoration = 'none'; // Underline on hover
+//     });
+
+//     item2.addEventListener('mouseout', () => {
+//         item2.style.textDecoration = 'underline'; // Remove underline on mouseout
+//     });
+// });
+
 
 
 
