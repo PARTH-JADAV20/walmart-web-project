@@ -22,6 +22,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+#logo:hover{
+   background-color: rgb(0, 45, 88);
 }
 
 #item_dilvery{
@@ -33,6 +40,7 @@
     align-items: center;
     padding-left: 3%;
     column-gap: 5%;
+    cursor: pointer;
 }
 
 #txt101{
@@ -75,6 +83,7 @@
     position: relative;
     right: 25px;
     top: 8px;
+    cursor: pointer;
 }
 
 
@@ -87,6 +96,7 @@
     border-radius: 50px;
     width: 80%;
     padding-left: 8%;
+    cursor: pointer;
 }
 
 #cart{
@@ -97,6 +107,7 @@
     border-radius: 30px;
     width: 130%;
     padding-left: 50%;
+    cursor: pointer;
 }
 
 #cart_icon{
@@ -104,7 +115,7 @@
 }
 
 #zeroitems{
-    font-size: 80%;
+    font-size: 66%;
     position: relative;
     right: 5px;
     top: -10px;
@@ -112,8 +123,8 @@
     background-color: yellow;
     border: 2px solid orange;
     border-radius: 50%;
-    height: 10px;
-    width: 10px;
+    height: 5px;
+    width: 13px;
     text-align: center;
     padding-bottom: 7px;
 }
@@ -164,17 +175,17 @@ ul > li > a{
 }
 
 #hov2, #hov3{
-    padding: 1px 8px;
+    padding: 3px 8px;
     border-radius: 50px;
     width: 100%;
-    height: 90%;
+    height: 100%;
     display: grid;
     box-sizing: border-box;
 }
 
 
 .hov20{
-    border: 1px solid rgb(101, 150, 195);
+    outline: 2px solid rgb(101, 150, 195);
 }
 
 .Depratments{
@@ -184,8 +195,7 @@ ul > li > a{
 
 #content{
     position: relative;
-    z-index: -5;
-    top: 131px;
+    top: 140px;
     max-width: 100%;
 }
 
@@ -204,6 +214,30 @@ ul > li > a{
     padding-bottom: 15px;
 }
 
+.cont1img>div{
+    cursor: pointer;
+}
+
 .cont1img > img {
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.category_deals{
+    position: absolute;
+    top: 2%;
+    color: white;
+    padding-left: 2%;
+}
+
+.cdtxt1{
+    font-size: 120%;
+    font-weight: 700;
+}
+
+#cdtxt01{
+    font-size: 90%;
+    text-decoration: underline;
+    padding-top: 20px;
+    cursor: pointer;
 }
