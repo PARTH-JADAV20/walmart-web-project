@@ -10,6 +10,7 @@
     height: 85px;
     align-items: center;
     position: fixed;
+    z-index: 2;
 }
 
 #navcont{
@@ -158,6 +159,7 @@
     width: 100%;
     position: fixed;
     background-color: white;
+    z-index: 2;
 }
 
 ul{
@@ -239,5 +241,166 @@ ul > li > a{
     font-size: 90%;
     text-decoration: underline;
     padding-top: 20px;
+    cursor: pointer;
+}
+
+.category_deals2{
+    position: absolute;
+    top: 28%;
+    color: white;
+    padding-left: 2%;
+}
+
+.cdtxt2{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+#cdtxt02{
+    font-size: 90%;
+    text-decoration: underline;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#cdtxt002{
+    text-decoration: line-through;
+    padding-top: 250px;
+    cursor: pointer;
+    margin-bottom: -8px;
+}
+
+#cdtxt0002{
+    font-size: 250%;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#cdtxt0002 > sup {
+    font-size: 70%;
+    cursor: pointer;
+}
+
+.category_deals3{
+    position: absolute;
+    top: 81%;
+    color: white;
+    padding-left: 2%;
+}
+
+.cdtxt3{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+#cdtxt03{
+    font-size: 90%;
+    text-decoration: underline;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+
+.category_deals4{
+    position: absolute;
+    top: 45%;
+    color: white;
+    padding-left: 2%;
+}
+
+.cdtxt4{
+    font-size: 120%;
+    font-weight: 500;
+}
+
+#cdtxt04{
+    font-size: 90%;
+    text-decoration: underline;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.category_deals5{
+    position: absolute;
+    top: 45%;
+    color: black;
+    padding-left: 2%;
+}
+
+.cdtxt5{
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.category_deals6{
+    position: absolute;
+    top: 81%;
+    color: black;
+    padding-left: 2%;
+}
+
+.cdtxt6{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.category_deals7{
+    position: absolute;
+    top: 2%;
+    color: white;
+    padding-left: 2%;
+}
+
+.cdtxt7{
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.category_deals8{
+    position: absolute;
+    top: 24%;
+    color: white;
+    padding-left: 2%;
+}
+
+.cdtxt8{
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.category_deals9{
+    position: absolute;
+    top: 49%;
+    color: white;
+    padding-left: 2%;
+}
+
+.cdtxt9{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+#cdtxt09{
+    font-size: 90%;
+    text-decoration: underline;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#cdtxt009{
+    text-decoration: line-through;
+    padding-top: 220px;
+    cursor: pointer;
+    margin-bottom: -8px;
+}
+
+#cdtxt0009{
+    font-size: 250%;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#cdtxt0009 > sup {
+    font-size: 70%;
     cursor: pointer;
 }
