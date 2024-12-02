@@ -29,3 +29,37 @@ for (let element of hov1) {
         element.style.backgroundColor = '';
     });
 }
+
+
+const hov2 = document.querySelector('#hov2');
+
+hov2.addEventListener('mouseover', () => {
+    hov2.classList.add('hov20');
+});
+
+hov2.addEventListener('mouseout', () => {
+    hov2.classList.remove('hov20');
+});
+
+const hov3 = document.querySelector('#hov3');
+
+hov3.addEventListener('mouseover', () => {
+    hov3.classList.add('hov20');
+});
+
+hov3.addEventListener('mouseout', () => {
+    hov3.classList.remove('hov20');
+});
+
+
+const underline1 = document.getElementsByClassName('underline1'); 
+
+
+for (let element2 of underline1) {
+    element2.addEventListener('mouseover', () => {
+        element2.style.textDecoration = 'underline' ;
+    });
+    element2.addEventListener('mouseout', () => {
+        element2.style.textDecoration = '';
+    });
+}
