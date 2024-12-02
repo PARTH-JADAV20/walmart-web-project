@@ -68,5 +68,22 @@ for (let element2 of underline1) {
 
 
 
+const searchButton = document.getElementById('cdtxt01');
+const clickCountDisplay = document.getElementById('zeroitems');
 
+let clickCount = parseInt(localStorage.getItem('searchClickCount')) || 0;
+
+clickCountDisplay.textContent = clickCount;
+
+searchButton.addEventListener('click', () => {
+    clickCount += 1;
+
+    localStorage.setItem('searchClickCount', clickCount);
+    if(clickCount>10){
+        localStorage.clear()
+        clickCount=0;
+    }
+
+    clickCountDisplay.textContent = clickCount;
+});
 
