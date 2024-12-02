@@ -237,13 +237,6 @@ ul > li > a{
     font-weight: 700;
 }
 
-#cdtxt01{
-    font-size: 90%;
-    text-decoration: underline;
-    padding-top: 20px;
-    cursor: pointer;
-}
-
 .category_deals2{
     position: absolute;
     top: 28%;
@@ -254,13 +247,6 @@ ul > li > a{
 .cdtxt2{
     font-size: 150%;
     font-weight: 700;
-}
-
-#cdtxt02{
-    font-size: 90%;
-    text-decoration: underline;
-    padding-top: 20px;
-    cursor: pointer;
 }
 
 #cdtxt002{
@@ -293,7 +279,7 @@ ul > li > a{
     font-weight: 700;
 }
 
-#cdtxt03{
+.cdtxt03{
     font-size: 90%;
     text-decoration: underline;
     padding-top: 20px;
@@ -311,13 +297,6 @@ ul > li > a{
 .cdtxt4{
     font-size: 120%;
     font-weight: 500;
-}
-
-#cdtxt04{
-    font-size: 90%;
-    text-decoration: underline;
-    padding-top: 20px;
-    cursor: pointer;
 }
 
 .category_deals5{
@@ -380,13 +359,6 @@ ul > li > a{
     font-weight: 700;
 }
 
-#cdtxt09{
-    font-size: 90%;
-    text-decoration: underline;
-    padding-top: 20px;
-    cursor: pointer;
-}
-
 #cdtxt009{
     text-decoration: line-through;
     padding-top: 220px;
@@ -403,4 +375,8 @@ ul > li > a{
 #cdtxt0009 > sup {
     font-size: 70%;
     cursor: pointer;
+}
+
+.cdtxt03:hover {
+    text-decoration: none; 
 }

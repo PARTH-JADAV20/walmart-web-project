@@ -87,3 +87,8 @@ searchButton.addEventListener('click', () => {
     clickCountDisplay.textContent = clickCount;
 });
 
+
+
+
+
+
