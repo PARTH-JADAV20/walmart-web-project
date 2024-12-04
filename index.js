@@ -90,32 +90,43 @@ searchButton.addEventListener('click', () => {
 
 
 const items2 = document.querySelectorAll('.cdtxt03');
-console.log(items2); // Just to verify selection
 
 items2.forEach(item2 => {
     item2.addEventListener('mouseover', () => {
         console.log("hi");
-        item2.style.textDecoration = 'none'; // Underline on hover
+        item2.style.textDecoration = 'none';
     });
 
     item2.addEventListener('mouseout', () => {
-        item2.style.textDecoration = 'underline'; // Remove underline on mouseout
+        item2.style.textDecoration = 'underline'; 
     });
 });
 
-const items3 = document.querySelector('.cdtxt03');
-console.log(items3); // Just to verify selection
 
-// items2.forEach(item2 => {
-//     item2.addEventListener('mouseover', () => {
-//         console.log("hi");
-//         item2.style.textDecoration = 'none'; // Underline on hover
-//     });
 
-//     item2.addEventListener('mouseout', () => {
-//         item2.style.textDecoration = 'underline'; // Remove underline on mouseout
-//     });
-// });
+
+const cardlist = document.querySelector(".card-list"),
+      firstli = cardlist.querySelectorAll("li")[0],
+      cardArrowIcons = document.querySelectorAll("#right2, #left2");
+      console.log(cardlist);
+
+let firstLiWidth = firstli.clientWidth + 1220;
+let cardScrollWidth = cardlist.scrollWidth - cardlist.clientWidth;
+
+const showHideCardIcons = () => {
+   cardArrowIcons[0].style.display = cardlist.scrollLeft === 0 ? "none" : "block";
+   cardArrowIcons[1].style.display = cardlist.scrollLeft + cardlist.clientWidth >= cardlist.scrollWidth - 1? "none": "block";
+};
+
+cardArrowIcons.forEach(icon => {
+    icon.addEventListener("click", () => {
+        let scrollAmount = icon.id === "left2" ? -firstLiWidth : firstLiWidth;
+        cardlist.scrollLeft += scrollAmount;
+        setTimeout(showHideCardIcons, 60);
+    });
+});
+
+showHideCardIcons();
 
 
 
